@@ -40,11 +40,11 @@ To get started with the Email Best Practices Checker, follow these steps:
 
 ### Installation
 
-- Download the files/folder
+- Download the files/folder:
 
   **```git clone https://github.com/Sherlock297/EmailSentinel.git```**
 
-- Change directory
+- Change directory:
 
   **```cd EmailSentinel```**
 
@@ -52,14 +52,34 @@ To get started with the Email Best Practices Checker, follow these steps:
 
   **```pip install -r requirements.txt```**
 
+- Set the execute permission on the script file:
+
+  **```chmod +x EmailSentinel.py```**
+
+- To access globally, copy it to bin folder:
+
+  **```sudo cp EmailSentinel.py /bin```**
+
+- Access:
+
+  **```EmailSentinel.py```**
+
 ### Usage
 - Run the Email Best Practices Checker for a single domain:
 
   **```python EmailSentinel.py -d example.com```**
 
+  OR
+  
+  **```EmailSentinel.py -d example.com```**
+
 - For multiple domains, create a text file with one domain per line and use the -l flag:
 
   **```python EmailSentinel.py -l domain_list.txt```**
+
+  OR
+  
+  **```EmailSentinel.py -l domain_list.txt```**
 
 ## Contribution Guidelines
 We welcome contributions from the community.
