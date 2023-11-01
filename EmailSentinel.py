@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import dns.resolver
 from datetime import datetime
 import argparse
